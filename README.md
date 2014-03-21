@@ -16,9 +16,9 @@ Run the install.bat file.
 
 Files
 -----
-customLogon.reg - This file enables the OEMBackground feature in the registry.
-install.bat - As it name implies it install the program and places everything in the right places.
-random.ps1 - Random.ps1 is the main script in this program this is the one which is run everytime you logon and randomizes the background.
-random.xml - The random.xml file is a exported Scheduled task which is import to Task Scheduler.
-uninstall.bat - As the name implies again is the uninstaller for this program.
-uninstall.reg - This file disables the OEMBackground feature if it was disabled before it was installed.
+customLogon.reg - This file enables the OEMBackground feature in the registry  
+install.bat - As it name implies it install the program and places everything in the right places  
+random.ps1 - Random.ps1 is the main script in this program this is the one which is run everytime you logon and randomizes the background  
+random.xml - The random.xml file is a exported Scheduled task which is import to Task Scheduler  
+uninstall.bat - As the name implies again is the uninstaller for this program  
+uninstall.reg - This file disables the OEMBackground feature if it was disabled before it was installed  
