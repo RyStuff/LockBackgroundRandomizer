@@ -10,7 +10,7 @@ set /p c=Are you sure you want to continue[Y/N]?
 if /I "%c%"=="Y" goto install
 if /I "%c%"=="N" goto exit
 :install
-
+cls
 customLogon.reg
 mkdir "c:\Program Files\RyStuff\LockBackground"
 mkdir "c:\Program Files\RyStuff\LockBackground\backgrounds"
@@ -30,7 +30,7 @@ copy "random.ps1" "c:\Program Files\RyStuff\LockBackground\random.ps1"
 copy "uninstall.exe" "c:\Program Files\RyStuff\LockBackground\uninstall.exe"
 copy "uninstall.reg" "c:\Program Files\RyStuff\LockBackground\uninstall.reg"
 powershell -ExecutionPolicy Bypass -File "c:\Program Files\RyStuff\LockBackground\random.ps1"
-
+cls
 echo                  Copyright (c) Ryan Eastland RyStuff 2014
 echo ################################################################################
 echo Save custom backgrounds to c:\Program Files\RyStuff\LockBackground\backgrounds
