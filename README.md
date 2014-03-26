@@ -2,6 +2,8 @@ RyStuff Lock Background Randomizer
 ==================================
 RyStuff Lock Background Randomizer is a basic windows powershell, registry, Scheduled task and batch files that randomize lock screen backgrounds everytime you logon the computer.
 
+**Note: **At the moment a powershell window will appear at logon. I am working on a good way to make the window not appear.
+
 Install
 -------
 To install this program download the latest release from the release section on github.  
